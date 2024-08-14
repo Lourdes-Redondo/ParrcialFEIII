@@ -1,7 +1,11 @@
 import React from "react";
+import card from "./card.css";
 
 const Card = () => {
-  return <div></div>;
+  return <div>
+    <p>Nombre: {name} </p>
+    <p>Animal Favorito: {animalFav}</p>
+  </div>;
 };
 
 
